@@ -1,3 +1,4 @@
-rojeto criado durante curso FGV. E futuramente será utilizado como portifólio. <br> Esta é apenas uma homenagem realizada com respeito e admiração." <br>
+Projeto criado durante curso FGV. <br>
+E futuramente será utilizado como portifólio.
  <br>
-<a href="https://kmarlon21.github.io/projeto-kurumada/">Visite meu site</a>
+<a href="https://kmarlon21.github.io/projeto-portifolio/">Visite meu site</a>
