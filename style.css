@@ -213,3 +213,36 @@ tr > tr > td {
   color: var(--cor3);
   font-weight: 700;
 }
+
+.logo-grid {
+  display: flex; /* Ativa o Flexbox */
+  flex-wrap: wrap; /* Permite quebrar linha se necessário */
+  gap: 16px; /* Espaço entre os itens */
+  justify-content: center; /* Centraliza os itens */
+}
+
+.imagem {
+  width: 80px;
+  height: 90px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(41, 41, 41, 0.815);
+  color: aliceblue;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+  border-bottom: 5px solid var(--cor6);
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.img {
+  padding-top: 8px;
+  width: 40%;
+  height: auto;
+}
+
+.textlogo {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
