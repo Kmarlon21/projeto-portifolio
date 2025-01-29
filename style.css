@@ -223,11 +223,11 @@ tr > tr > td {
 
 .imagem {
   width: 80px;
-  height: 90px;
+  height: 80px;
   padding: 10px;
   text-align: center;
   background-color: rgba(41, 41, 41, 0.815);
-  color: aliceblue;
+  color: var(--cor6);
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
   border-bottom: 5px solid var(--cor6);
   border-radius: 5px;
@@ -239,10 +239,53 @@ tr > tr > td {
   padding-top: 8px;
   width: 40%;
   height: auto;
+  margin-bottom: 12px;
 }
 
 .textlogo {
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.box-cv {
+  display: flex; /* Ativa o Flexbox */
+  flex-wrap: wrap; /* Permite quebrar linha se necessário */
+  gap: 16px; /* Espaço entre os itens */
+  justify-content: center; /* Centraliza os itens */
+}
+
+.cv {
+  width: 80px;
+  height: 110px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(41, 41, 41, 0.815);
+  color: var(--cor6);
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.411);
+  border-bottom: 5px solid var(--cor6);
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.imgcv {
+  padding-top: 8px;
+  width: 70%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.textcv {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: var(--cor6);
+  transition: color 0.3s ease-in-out;
+}
+
+.textcv:hover {
+  color: var(--cor5);
 }
