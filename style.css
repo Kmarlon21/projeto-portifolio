@@ -1,3 +1,5 @@
+/* AQUI TEMOS AS ESTILIZAÇÕES RAIZES DO PROJETO, CORES, FONTES, RESET DA PÁGINA E ESTILOS BÁSICOS */
+
 :root {
   --cor1: #4caf50;
   --cor2: #2c3e50;
@@ -19,6 +21,8 @@ body {
   overflow-x: hidden;
 }
 
+/* ESTA PARTE REPRESENTA O CABEÇALHO DE TODAS AS PÁGINAS, QUE SÃO PADRÃO E RECEBEM A MESMA ESTILIZAÇÃO */
+
 header {
   text-align: center;
   padding-top: 65px;
@@ -31,16 +35,28 @@ header > h1 {
   margin-bottom: 20px;
 }
 
+/* ESTA PARTE APESAR DE SER O HEADER, SÓ REFERE-SE A IMAGEM QUE ESTA LOCALIZADA NA PÁGINA SOBRE. */
+
 header img {
+  padding-top: 10px;
   border-radius: 50%;
   width: 200px;
+  transition: 0.3s;
 }
+
+header > img:hover {
+  scale: 1.3;
+}
+
+/* PARTE ESPECIFICA DO PROJETO QUE REFERE-SE AO H2 QUE ESTÁ NA PÁGINA */
 
 header h2 {
   color: var(--cor4);
   font-size: 1.2em;
   margin: 10px;
 }
+
+/* ESTÁ ÁREA CONTEM O ESTILO DA NAVBAR DE TODAS AS PÁGINAS*/
 
 nav {
   text-align: center;
@@ -153,6 +169,8 @@ section {
   padding: 17px;
 }
 
+/* AQUI É A PARTE QUE CONTEM A ESTILIZAÇÃO DO MEU CÓDIGO REFERENTE AS IMGENS E LINKS DA PÁGINA CONTATOS */
+
 .social-links a {
   text-decoration: none;
   font-size: 1.3em;
@@ -165,6 +183,16 @@ section {
 .social-links a:hover {
   color: var(--cor5);
 }
+
+.social-link {
+  transition: 0.3s;
+}
+
+.social-link:hover {
+  scale: 1.5;
+}
+
+/* NESTA PARTE COMEÇA A ESTILIZAÇÃO DAS TABELAS QUE FICAM NA PÁGINA PROJETOS, AQUI CONTÉM A RESPONSIVIDADE E CARACTERISTICAS DA MINHA TABELA */
 
 .container-table {
   width: 90%;
@@ -221,6 +249,8 @@ tr > tr > td {
   justify-content: center; /* Centraliza os itens */
 }
 
+/* AQUI FICA A ESTILIZAÇÃO DA DIV QUE CONTEM OS CARDS DAS TECNOLOGIAS QUE TRABALHO, REFEFENTE A PAGINA HOME DO PROETO */
+
 .imagem {
   width: 80px;
   height: 80px;
@@ -240,6 +270,11 @@ tr > tr > td {
   width: 40%;
   height: auto;
   margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.img:hover {
+  scale: 1.5;
 }
 
 .textlogo {
@@ -254,6 +289,8 @@ tr > tr > td {
   gap: 16px; /* Espaço entre os itens */
   justify-content: center; /* Centraliza os itens */
 }
+
+/* ESTE CÓDIGO REPRESENTA A ESTILIZAÇÃO DO CARD COM O LINK PARA BAIXAR O CV DO USUÁRIO, LOCALIZADO NA PÁGINA SOBRE */
 
 .cv {
   width: 80px;
