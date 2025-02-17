@@ -1,0 +1,11 @@
+/* AQUI TEMOS AS ESTILIZAÇÕES RAIZES DO PROJETO, CORES, FONTES, RESET DA PÁGINA E ESTILOS BÁSICOS */
+
+:root {
+  --fundo: #3d3d3d;
+  --cor1: #4caf50;
+  --cor2: #2c3e50;
+  --cor3: #f4f4f9;
+  --cor4: #333333;
+  --cor5: #ff6f61;
+  --cor6: #f1c40f;
+}
