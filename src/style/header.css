@@ -1,3 +1,5 @@
+@import url(variable.css);
+
 /* ESTA PARTE REPRESENTA O CABEÇALHO DE TODAS AS PÁGINAS, QUE SÃO PADRÃO E RECEBEM A MESMA ESTILIZAÇÃO */
 
 header {
@@ -7,7 +9,8 @@ header {
 }
 
 header > h1 {
-  color: var(--cor1);
+  font-family: var(--font_titulo);
+  color: var(--cor06);
   font-size: 2.5em;
   margin-bottom: 20px;
 }
@@ -28,9 +31,10 @@ header > img:hover {
 /* PARTE ESPECIFICA DO PROJETO QUE REFERE-SE AO H2 QUE ESTÁ NA PÁGINA */
 
 header h2 {
-  color: var(--cor4);
+  color: var(--cor05);
   font-size: 1.2em;
   margin: 10px;
+  font-family: var(--font_texto);
 }
 
 /* ESTÁ ÁREA CONTEM O ESTILO DA NAVBAR DE TODAS AS PÁGINAS*/

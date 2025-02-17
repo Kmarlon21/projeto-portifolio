@@ -1,3 +1,5 @@
+@import url(variable.css);
+
 main {
   width: 90%;
   min-width: 300px;
@@ -17,11 +19,11 @@ main p {
   padding: 20px;
   margin: 15px 0px;
   text-align: justify;
-
+  font-family: var(--font_texto);
   line-height: 2em;
   font-size: 1em;
   font-weight: normal;
-  background-color: var(--cor5);
+  background-color: var(--cor06);
   border-radius: 15px;
   text-align: justify;
 }
@@ -59,14 +61,14 @@ section {
 .social-links a {
   text-decoration: none;
   font-size: 1.3em;
-  color: var(--cor1);
+  color: var(--cor06);
   font-weight: bold;
   transition: color 0.3s ease-in-out;
   padding: 05px;
 }
 
 .social-links a:hover {
-  color: var(--cor5);
+  color: var(--cor05);
 }
 
 .social-link {
@@ -85,12 +87,13 @@ section {
   margin: auto;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-family: var(--font_texto);
 }
 
 .container-table table,
 th,
 tr > tr > td {
-  border: 1px solid var(--cor4);
+  border: 1px solid var(--cor04);
   border-collapse: collapse;
 }
 
@@ -105,7 +108,7 @@ tr > tr > td {
 .container-table table thead th {
   width: 100px;
   height: 40px;
-  border-bottom: 1px solid var(--cor2);
+  border-bottom: 1px solid var(--cor04);
 }
 
 .container-table table tbody {
@@ -118,11 +121,11 @@ tr > tr > td {
 }
 
 .container-table table tbody tr:nth-child(2n) {
-  background-color: var(--cor2);
+  background-color: var(--cor06);
 }
 
 .container-table table tbody tr:hover > td {
-  background-color: var(--cor5);
+  background-color: var(--cor05);
   color: var(--cor3);
   font-weight: 700;
 }
@@ -139,7 +142,7 @@ tr > tr > td {
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
-  background: var(--cor2);
+  background: var(--cor01);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 150px; /*distancia*/
@@ -147,7 +150,7 @@ tr > tr > td {
 }
 
 .container-pj > h2 {
-  color: var(--cor1);
+  color: var(--cor05);
   font-size: 1.5em;
   font-family: var(--font_titulo);
 }
@@ -160,7 +163,7 @@ tr > tr > td {
 }
 
 .projeto {
-  background: var(--cor4);
+  background: var(--cor06);
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -176,7 +179,7 @@ tr > tr > td {
 }
 .projeto h3 {
   margin: 10px 0;
-  color: var(--cor1);
+  color: var(--cor04);
   font-family: var(--font_titulo);
   font-size: 1.5em;
 }
@@ -192,7 +195,7 @@ tr > tr > td {
   font-family: var(--font_titulo);
 }
 .projeto a:hover {
-  background: var(--cor5);
+  background: var(--cor05);
 }
 
 /* AQUI FICA A ESTILIZAÇÃO DA DIV QUE CONTEM OS CARDS DAS TECNOLOGIAS QUE TRABALHO, REFEFENTE A PAGINA HOME DO PROETO */
@@ -224,8 +227,8 @@ tr > tr > td {
 }
 
 .textlogo {
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-family: var(--font_texto);
   font-weight: bold;
 }
 
