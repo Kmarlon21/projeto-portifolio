@@ -1,11 +1,18 @@
 /* AQUI TEMOS AS ESTILIZAÇÕES RAIZES DO PROJETO, CORES, FONTES, RESET DA PÁGINA E ESTILOS BÁSICOS */
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
-  --fundo: #3d3d3d;
-  --cor1: #4caf50;
-  --cor2: #2c3e50;
-  --cor3: #f4f4f9;
-  --cor4: #333333;
-  --cor5: #ff6f61;
-  --cor6: #f1c40f;
+  --cor01: #000000; /*preto*/
+  --cor02: #1c1c1c; /*cinza carvão*/
+  --cor03: #666666; /*cinza médio*/
+  --cor04: #f5f5f5; /*branco quebrado*/
+  --cor05: #8b0000; /*vermelho borde*/
+  --cor06: #005a78; /*azul pérola*/
+  --cor07: #4a4a4a; /*cinza chumbo*/
+
+  --font_titulo: "Bebas Neue", serif;
+  --font_texto: "Poppins", sans-serif;
 }
