@@ -153,6 +153,7 @@ tr > tr > td {
   color: var(--cor05);
   font-size: 1.5em;
   font-family: var(--font_titulo);
+  text-align: center;
 }
 
 .projetos {
@@ -182,6 +183,7 @@ tr > tr > td {
   color: var(--cor04);
   font-family: var(--font_titulo);
   font-size: 1.5em;
+  text-align: center;
 }
 
 .projeto a {
