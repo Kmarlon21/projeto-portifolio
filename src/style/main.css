@@ -142,15 +142,15 @@ tr > tr > td {
   max-width: 1000px;
   margin: 20px auto;
   padding: 20px;
-  background: var(--cor01);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: var(--cor02);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
   border-radius: 8px;
   margin-top: 150px; /*distancia*/
   margin-bottom: 150px; /*distancia*/
 }
 
 .container-pj > h2 {
-  color: var(--cor05);
+  color: var(--cor06);
   font-size: 1.5em;
   font-family: var(--font_titulo);
   text-align: center;
@@ -180,7 +180,7 @@ tr > tr > td {
 }
 .projeto h3 {
   margin: 10px 0;
-  color: var(--cor04);
+  color: var(--cor02);
   font-family: var(--font_titulo);
   font-size: 1.5em;
   text-align: center;
@@ -190,7 +190,7 @@ tr > tr > td {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 15px;
-  background: var(--cor2);
+  background: var(--cor03);
   color: var(--cor1);
   text-decoration: none;
   border-radius: 5px;
